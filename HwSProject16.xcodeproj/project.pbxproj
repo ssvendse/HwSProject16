@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		025582B71F709606005CB508 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = 025582B61F709606005CB508 /* Action.js */; };
 		02D79B701F705858002C65FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D79B6F1F705858002C65FA /* AppDelegate.swift */; };
 		02D79B721F705858002C65FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D79B711F705858002C65FA /* ViewController.swift */; };
 		02D79B751F705858002C65FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D79B731F705858002C65FA /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		025582B61F709606005CB508 /* Action.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
 		02D79B6C1F705858002C65FA /* HwSProject16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HwSProject16.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D79B6F1F705858002C65FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02D79B711F705858002C65FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				02D79B871F705BDF002C65FA /* ActionViewController.swift */,
 				02D79B891F705BDF002C65FA /* MainInterface.storyboard */,
 				02D79B8C1F705BDF002C65FA /* Info.plist */,
+				025582B61F709606005CB508 /* Action.js */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				025582B71F709606005CB508 /* Action.js in Resources */,
 				02D79B8B1F705BDF002C65FA /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +435,7 @@
 				02D79B801F705858002C65FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02D79B901F705BDF002C65FA /* Build configuration list for PBXNativeTarget "Extension" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +444,7 @@
 				02D79B921F705BDF002C65FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
